@@ -8,7 +8,7 @@ function Clientstable() {
       try {
         const token = Cookies.get("jwttoken");
         const response = await fetch(
-          "https://skillup-backend-new.vercel.app/skillup/api/client/clients",
+          "https://skill-up-backend-final.vercel.app/skillup/api/client/clients",
           {
             method: "GET",
             headers: {
