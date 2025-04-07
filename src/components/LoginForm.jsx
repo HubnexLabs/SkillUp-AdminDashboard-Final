@@ -17,7 +17,7 @@ function LoginForm({ setLogin }) {
     };
     try {
       const response = await fetch(
-        "https://skill-up-backend-final.vercel.app/skillup/api/admin/login",
+        "https://backend.skillup.hubnex.in/skillup/api/admin/login",
         {
           method: "POST",
           headers: {
