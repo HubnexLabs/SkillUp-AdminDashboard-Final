@@ -16,7 +16,7 @@ function Registerform() {
     };
     try {
       const response = await fetch(
-        "https://skill-up-backend-final.vercel.app/skillup/api/admin/register",
+        "https://backend.skillup.hubnex.in/skillup/api/admin/register",
         {
           method: "POST",
           headers: {
