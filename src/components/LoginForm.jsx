@@ -57,7 +57,7 @@ function LoginForm({ setLogin }) {
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="Admin Id"
               >
-                Admin Id
+                Email
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -93,9 +93,9 @@ function LoginForm({ setLogin }) {
                 </div>
               </button>
             </div>
-            <div className="text-center mt-4 text-blue-900">
+{/*             <div className="text-center mt-4 text-blue-900">
               <NavLink to={"/register"}>Register ?</NavLink>
-            </div>
+            </div> */}
           </form>
         </div>
       </div>
