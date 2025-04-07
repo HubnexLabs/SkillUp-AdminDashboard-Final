@@ -63,7 +63,7 @@ function LoginForm({ setLogin }) {
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="Admin Id"
                 type="text"
-                placeholder="Admin ID"
+                placeholder="Admin Email"
                 ref={AdminRef}
               />
             </div>
