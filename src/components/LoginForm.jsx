@@ -93,9 +93,9 @@ function LoginForm({ setLogin }) {
                 </div>
               </button>
             </div>
-            <div className="text-center mt-4 text-blue-900">
+{/*             <div className="text-center mt-4 text-blue-900">
               <NavLink to={"/register"}>Register ?</NavLink>
-            </div>
+            </div> */}
           </form>
         </div>
       </div>
