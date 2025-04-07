@@ -8,11 +8,11 @@ function LoginForm({ setLogin }) {
 
   async function handleLogin(e) {
     e.preventDefault();
-    const AdminId = AdminRef.current.value;
+    const AdminEmail = AdminRef.current.value;
     const Password = PasswordRef.current.value;
-    console.log(AdminId, Password);
+    //console.log(AdminId, Password);
     const formData = {
-      id: AdminId,
+      id: AdminEmail,
       password: Password,
     };
     try {
