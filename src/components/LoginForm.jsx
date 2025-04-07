@@ -32,7 +32,7 @@ function LoginForm({ setLogin }) {
         data.message == "User not found" ||
         data.message == "Incorrect password"
       ) {
-        alert(data.message);
+        alert("System Breach detected. Please contact SuperAdmin to log in");
         nav("/login");
       } else {
         const user = data.token;
