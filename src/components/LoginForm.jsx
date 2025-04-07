@@ -12,7 +12,7 @@ function LoginForm({ setLogin }) {
     const Password = PasswordRef.current.value;
     //console.log(AdminId, Password);
     const formData = {
-      id: AdminEmail,
+      email: AdminEmail,
       password: Password,
     };
     try {
